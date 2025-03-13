@@ -1,4 +1,4 @@
-﻿using CSPrimer.Collections.Concurrent;
+﻿using CSPrimer.DesignPatterns.GoF.Decorator;
 
 namespace CSPrimer
 {
@@ -6,8 +6,7 @@ namespace CSPrimer
     {
         static void Main(string[] args)
         {
-            var signalingPrimer = new BlockingCollectionPrimer();
-            signalingPrimer.ProducerConsumerEx();
+            DecoratorPrimer.Do();
         }
     }
 }
